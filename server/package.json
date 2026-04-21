@@ -1,0 +1,13 @@
+{
+  "name": "supabase-compress-worker",
+  "version": "1.0.0",
+  "description": "Worker to compress images in Supabase storage after upload",
+  "main": "compress-after-upload.js",
+  "scripts": {
+    "start": "node compress-after-upload.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "sharp": "^0.32.0"
+  }
+}
